@@ -18,7 +18,7 @@
     "dns_ipv6": false,
     "connect_verbose_info": 0,
     "connect_hex_data": 0,
-    "redirect": ["*:443#127.0.0.1:80"],
+    "redirect": ["img.alicdn.com","apps.bdimg.com","ajax.microsoft.com","images-na.ssl-images-amazon.com", "m.media-amazon.com", "kdp.amazon.com", "php.net", "web.ssoss.xyz"],
     "fast_open": false,
     "friendly_detect": 1
 }
