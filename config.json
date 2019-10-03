@@ -11,14 +11,14 @@
     "method": "none",
     "protocol": "auth_china_a",
     "protocol_param": "",
-    "obfs": "tls1.2_ticket_auth",
+    "obfs": "plain",
     "obfs_param": "",
     "speed_limit_per_con": 0,
 
     "dns_ipv6": false,
     "connect_verbose_info": 0,
     "connect_hex_data": 0,
-    "redirect": ["img.alicdn.com","apps.bdimg.com","ajax.microsoft.com","images-na.ssl-images-amazon.com", "m.media-amazon.com", "kdp.amazon.com", "php.net" ,"turingapi.com"],
+    "redirect": ["127.0.0.1:8008"],
     "fast_open": false,
     "friendly_detect": 1
 }
