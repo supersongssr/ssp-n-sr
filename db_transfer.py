@@ -336,9 +336,9 @@ class DbTransfer(object):
         conn.autocommit(True)
 
         cur = conn.cursor()
-
+        #这里 获取节点时候，不再考虑节点流量上限！
         cur.execute("SELECT `node_group`,`node_class`,`node_speedlimit`,`traffic_rate`,`mu_only`,`sort` FROM ss_node where `id`='" +
-                    str(get_config().NODE_ID) + "' AND (`node_bandwidth`<`node_bandwidth_limit` OR `node_bandwidth_limit`=0)")
+                    str(get_config().NODE_ID) + "' ")
         nodeinfo = cur.fetchone()
 
         if nodeinfo is None:
